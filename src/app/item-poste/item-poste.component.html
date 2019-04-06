@@ -1,0 +1,20 @@
+<div [ngClass]="{
+                 'alert alert-success':cpt_like>cpt_dislike,
+				 'alert alert-danger':cpt_like<cpt_dislike
+}" style="border-raduis:10px;border:1px solid gray;">
+<div class="row">
+<div   class="col-md-8 col-lg-8 col-xs-12 col-sm-12" ><h2 >{{title}}</h2></div>
+ <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12" style="color:gray;"> <I>{{created_at| date: 'short'}}</I> </div>
+   
+</div>
+  
+    
+     <p>{{content}}</p>
+	 <div class="row">
+	  <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12"><a class="btn btn-success" (click)="Addlike()" >Like</a>|<a class="btn btn-danger" (click)="Adddislike()" >Dislike</a></div>
+	
+	 <div class="col-md-8 col-lg-8 col-xs-12 col-sm-12"></div>
+    
+	 </div>
+	  
+</div>

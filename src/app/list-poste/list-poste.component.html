@@ -1,0 +1,9 @@
+<div class="container-fluid" style="margin-left:20%;margin-right:20%;">
+ <app-item-poste *ngFor="let poste of list_poste"
+                       [title]="poste.title"
+					     [content]="poste.content"
+					   [created_at]="poste.created_at"
+                       ></app-item-poste>
+
+</div>
+ 
