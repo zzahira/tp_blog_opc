@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Myfirstblog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
@@ -29,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # tp_blog_opc
 >>>>>>> origin/master
+=======
+# tp_blog_opc
+>>>>>>> 4e079536c13689d57687c40124b633dcc0f349d9
